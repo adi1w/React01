@@ -1,0 +1,30 @@
+.functionDiv{
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 30px 20px 50px;
+    background-color: springgreen;
+    display: inline-block;
+    position: fixed;
+    left: 100px;
+}
+
+.paraCSSFunc{
+    font-size:20px;
+    font-weight:900
+}
+
+@media only screen and (min-width:350px) and (max-width:500px){
+    .functionDiv{
+        width: 300px;
+        padding: 20px 10px 20px;
+        position: static;
+        display: block;
+        margin-left: 20px;
+    }
+
+  
+    h1{
+        font-size: 25px;
+    }
+}
